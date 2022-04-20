@@ -1,0 +1,5 @@
+inarr = input().split(' ')
+a = float(inarr[0])
+b = int(inarr[1])
+print("%.3f" %(a/b))
+print(2*b)

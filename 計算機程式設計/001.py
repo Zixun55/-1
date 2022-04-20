@@ -1,0 +1,10 @@
+name = input()
+nu = input()
+ch = int(input())
+cs = int(input())
+pd = int(input())
+print('Name:'+name)
+print('ID:'+nu)
+
+print('Average:'+str(int((ch+cs+pd)/3)))
+print('Total:'+str(sum([ch,cs,pd])))
